@@ -13,7 +13,8 @@ public class CatalogTest {
         driver.get("C:\\Users\\ASUS\\IdeaProjects\\web2\\src\\main\\resources\\Catalog.html");
         WebElement pre = driver.findElement(By.tagName("pre"));
 
-        String Json
+        String json = driver.findElementByTagName("pre").getText()
+                ;
 
         Gson gson = new Gson();
 
