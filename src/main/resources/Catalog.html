@@ -1,65 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>DeLonghi ECP 31.21</title>
+    <style>
+    body {background-color: powdergrey;}
+    h1   {color: darkblue;}
+    p    {color: blue;}
+    table {border: 1px solid powderblue; padding: 30px;}
+    .pic {
+text-align: center;
+}
 
-    <h1>Рожковая помповая кофеварка DeLonghi ECP 31.21</h1>
-    <p>рожковая помповая кофеварка, 1100 Вт, корпус пластик, капучинатор ручной, цвет черный</p>
+    .dropbtn {
+  background-color: #4CA40;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
 
-    <img src="https://content2.onliner.by/catalog/device/header/89cf4d3dc971e50b9372f2209c216bc2.jpg" alt="Italian Trulli">
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
 
-    <form>
-        Количество:<br>
-        <input type="text" name="quontity">
-    </form>
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
 
-    <table style="width:100%">
-        <tr>
-            <th>Общая информация</th>
-            <th>Характеристики</th>
-        </tr>
-        <tr>
-            <td>Дата выхода на рынок</td>
-            <td>2016 г.</td>
-        </tr>
-        <tr>
-            <td>Исполнение</td>
-            <td>свободностоящее</td>
-        </tr>
-        <tr>
-            <td>Мощность </td>
-            <td>1 100 Вт</td>
-        </tr>
-        <tr>
-            <td>Давление</td>
-            <td>15 бар</td>
-        </tr>
-    </table>
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+</head>
+<body>
+<meta charset="UTF-8">
+<title>Кофеварка DeLonghi ECP 31.2</title>
+
+<h1 align="center">Рожковая помповая кофеварка DeLonghi ECP 31.21</h1>
+<p align="center">рожковая помповая кофеварка, 1100 Вт, корпус пластик, капучинатор ручной, цвет черный</p>
+
+<p class="pic"><img src="https://content2.onliner.by/catalog/device/header/89cf4d3dc971e50b9372f2209c216bc2.jpg" alt="Italian Trulli"></p>
+<p align="center"><input type="checkbox" name="option1" value="a1" checked>Наличие на складе</p>
+<p align="center"><input type="checkbox" name="option2" value="a2" checked>Наличие на складе</p>
+<p align="center"><a href="https://cart.onliner.by/">Оформить покупку</a></p>
+<form>
+    Введите Ваш номер телефона, мы свяжемся с Вами для консультации:<br>
+    <input type="text" name="quontity">
+</form>
+<br>
+<table style="width:100%">
+    <tr>
+        <th align="center">Общая информация</th>
+    </tr>
+    <tr>
+        <td>Дата выхода на рынок</td>
+        <td>2016</td>
+    </tr>
+    <tr>
+        <td>Исполнение</td>
+        <td>свободностоящее</td>
+    </tr>
+    <tr>
+        <td>Мощность (Вт)</td>
+        <td>1100</td>
+    </tr>
+    <tr>
+        <td>Давление (бар)</td>
+        <td>15</td>
+    </tr>
+</table>
+<table style="width:100%">
+    <tr>
+        <th align="center">Функциональные особенности </th>
+    </tr>
+    <tr>
+        <td>Капучинатор</td>
+        <td>true</td>
+    </tr>
+    <tr>
+        <td>Отложенный старт</td>
+        <td>false</td>
+    </tr>
+    <tr>
+        <td>Тип используемого кофе</td>
+        <td>молотый, чалды</td>
+    </tr>
+    <tr>
+        <td>Емкость для воды(л)</td>
+        <td>1</td>
+    </tr>
+</table>
+
+<br>
+
+<p align="center"><input type="submit" value="Купить"></p>
+<div class="dropdown">
+    <button class="dropbtn">Пункты самовывоза</button>
+    <div class="dropdown-content">
+        <a href="#">см Академия наук</a>
+        <a href="#">см Восток</a>
+        <a href="#">см Немига</a>
+    </div>
+</div>
+
+<p>Вы нашли, чтот искали? Нам важно Ваше мнение!</p>
+<input type="radio">Да<br>
+<input type="radio" >Нет<br>
 
 
 
-
-<pre>{
+<code>
+    {
     "name":"Рожковая помповая кофеварка DeLonghi ECP 31.21",
     "description":"рожковая помповая кофеварка, 1100 Вт, корпус пластик, капучинатор ручной, цвет черный",
     "offersDescription":"Нет объявлений на товар",
     "productSpecs" : "product-specs__table-title-inner",
     "type":true,
-    "valueText":18,
-    "ix":false
+    "valueText":18
     }
-</pre>
+</code>
 
-
-
-</head>
-<body>
 
 </body>
 </html>
-
-
-
-
-//
